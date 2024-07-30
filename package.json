@@ -1,6 +1,6 @@
 {
   "author": "Jon Tirsen <jon@tirsen.com>",
-  "name": "retry-cli",
+  "name": "@mgdn/retry-cli",
   "description": "Retry with exponential backoff for the command line.",
   "license": "MIT",
   "version": "0.6.0",
@@ -28,5 +28,9 @@
   "scripts": {
     "test": "LANG=en_US.UTF-8 ava",
     "start": "node ./cli.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
